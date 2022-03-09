@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form</title>
+  </head>
 
-        <meta charset="UTF-8" />
-        <title>Form</title>
+  <body>
+    <div>
+        <h3>Caixa de seleção</h3>
+      <label for="Categoria:">
+        <select name="categoria" id="categoria">
+          <option value="gestor">Gestor</option>
+  <option value="usuario">Usuário</option>
+          <option value="administrador" selected>Administrador</option>
+        </select>
+      </label>
+      </div>
 
-    </head>
-
-    <body>
-        
-        <div>
-            <label for="Categoria:">
-                <select name="categoria" id="categoria">
-                    <option value="gestor">Gestor</option>
-                    <option value="usuario">Usuário</option>
-                    <option value="administrador" selected>Administrador</option>
-                </select>
-            </label>
-        </div>
-
-    </body>
+      <div>
+      <br />
+      <h3>Caixas de Marcação</h3>
+      <input
+        id="vermelho"
+        name="vermelho"
+        value="vermelho"
+        type="checkbox"
+      />
+      <label for="cores">Vermelho</label>
+      <br />
+      <input
+        id="red"
+        name="blue"
+        value="Azul"
+        type="checkbox"
+        checked
+        />
+        <label for="yellow">Amarelo</label>
+      <br /> 
+      <input
+      id="cinza"
+      name="cinza"
+      value="Cinza"
+      type="checkbox"
+      checked
+      />
+      <label for="gray">Cinza</label>
+      
+    </div>
+  </body>
 </html>
