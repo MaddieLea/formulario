@@ -6,77 +6,82 @@
   </head>
 
   <body>
-      <!--Seleção da Caixas de Seleçãos-->
+    <!--Seleção da Caixas de Seleçãos-->
     <div>
-        <h3>Caixa de seleção</h3>
+      <h3>Caixa de seleção</h3>
       <label for="Categoria:">
         <select name="categoria" id="categoria">
           <option value="gestor">Gestor</option>
-  <option value="usuario">Usuário</option>
+          <option value="usuario">Usuário</option>
           <option value="administrador" selected>Administrador</option>
         </select>
       </label>
-      </div>
-      <!-- Fim da Seleção-->
+    </div>
+    <!-- Fim da Seleção-->
 
-<!--Seleção de Marcação-->
-      <div>
+    <!--Seleção de Marcação-->
+    <div>
       <br />
       <h3>Caixas de Marcação</h3>
-      <input
-        id="vermelho"
-        name="vermelho"
-        value="vermelho"
-        type="checkbox"
-      />
+      <input id="vermelho" name="vermelho" value="vermelho" type="checkbox" />
       <label for="cores">Vermelho</label>
       <br />
-      <input
-        id="red"
-        name="blue"
-        value="Azul"
-        type="checkbox"
-        checked
-        />
-        <label for="yellow">Amarelo</label>
-      <br /> 
-      <input
-      id="cinza"
-      name="cinza"
-      value="Cinza"
-      type="checkbox"
-      checked
-      />
-      <label for="gray">Cinza</label>  
+      <input id="red" name="blue" value="Azul" type="checkbox" />
+      <label for="yellow">Amarelo</label>
+      <br />
+      <input id="cinza" name="cinza" value="Cinza" type="checkbox" />
+      <label for="gray">Cinza</label>
     </div>
     <!--Fim da Seleção de Marcação-->
 
     <!--Seleção de Radios-->
     <div>
-        <h3>Seleção de Radios</h3>
-        <input type="radio" name="sexo" id="sexo_m" value="m">
-        <label for="sexo_m">Masculino</label>
+      <h3>Seleção de Radios</h3>
+      <input type="radio" name="sexo" id="sexo_m" value="m" />
+      <label for="sexo_m">Masculino</label>
 
-        
-        <input type="radio" name="sexo" id="sexo_f" value="f">
-        <label for="sexo_f">Feminino</label>
-        
-        <input type="radio" name="sexo" id="sexo_u" value="u">
-        <label for="sexo"_u>Indefinido</label>
+      <input type="radio" name="sexo" id="sexo_f" value="f" />
+      <label for="sexo_f">Feminino</label>
 
+      <input type="radio" name="sexo" id="sexo_u" value="u" />
+      <label for="sexo" _u>Indefinido</label>
     </div>
     <!--Fim da Seleção de Marcação-->
     <div>
-        <h3>Meu querido textarea</h3>
-            <textarea
-            placeholder="Insira um comentário aqui"
-            style="
-            resize: none;
-            border-radius: 10px;"
-            cols="50" 
-            rows="10" 
-            id="comentários"
-            ></textarea>
+      <h3>Meu querido textarea</h3>
+      <textarea
+        placeholder="Insira um comentário aqui"
+        style="resize: none; border-radius: 10px"
+        cols="50"
+        rows="10"
+        id="comentários"
+      ></textarea>
     </div>
+
+    <!--Formulário de Usuário-->
+    <div>
+        <h3>Formulário e menu</h3>
+      <!--Nome-->
+      <label for="name"id="name">Nome</label> <br />
+        <input type="'text" id="name" name="name" />
+      </label>
+      <!--Fim de nome-->
+      <br />
+
+      <!--Sobrenome-->
+      <label for="surname" id="surname">Sobrenome</label ><br />
+        <input type="'text" id="surname" name="surname" />
+      <!--Fim do Sobrenome-->
+      <br />
+
+      <!--Idade-->
+      <label for="age" id="age">Idade:</label> <br />
+        <input type="'number" id="age" name="age" />
+      <br />
+
+      <!--Fim de idade-->
+      <button type="reset" value="valor_padrão">Enviar</button>
+    </div>
+    <!--Fim do Formulário de Usuários-->
   </body>
 </html>
